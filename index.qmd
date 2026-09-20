@@ -1,0 +1,129 @@
+---
+title: 'Josselin Desclodure'
+---
+</br>
+<span style="font-size:1.45rem; color:white; font-weight: bold;"><span style="font-size:1.45rem; color:white;" class="badge bg-info">Professional</span>, <span style="font-size:1.45rem; color:white;" class="badge bg-primary">academic</span> or <span style="font-size:1.45rem; color:white;" class="badge bg-danger">competitive examination</span> backgrounds</span>
+
+<style>
+.small-image {
+    width: 150px;
+    height: auto;
+    cursor: pointer;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+</style>
+
+<table class="table table-hover">
+  <thead>
+    <tr>
+      <th scope="col"></th>
+      <th scope="col"></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="table-active">
+      <th scope="row">Sep 2026 - present</th>
+      <td><span class="badge bg-info">Methodologist / Regional Studies Analyst at <i>Insee Île-de-France</i></span> (<i>Institut national de la statistique et des études économiques</i>).
+      </td>
+    </tr>
+    <tr class="table-active">
+      <th scope="row">Sep 2024 - Jun 2026</th>
+      <td><i class="badge bg-primary">Ensai</i> as a <span class="badge bg-danger">Statistician <i>attaché</i> at <i>Insee</i></span> – <i>École nationale de la statistique et de l’analyse de l’information, Bruz, France<i>.
+      </td>
+    </tr>
+    <tr class="table-active">
+      <th scope="row">Sep 2023 - Aug 2024</th>
+      <td>Civil-servant trainee of <i>Insee</i> - <span class="badge bg-danger"><i>Contrôleur</i> at <i>Cefil</i></span> <i>(Centre de formation de l’Insee à Libourne)</i>.</td>
+    </tr>
+    <tr class="table-active">
+      <th scope="row">Pre-2023</th>
+      <td><span class="badge bg-info">Secondary education teacher</span>, <span class="badge bg-primary">BSc</span> in Mathematics at <i>Sorbonne Université, Paris, France</i> (formerly <i>Université Pierre et Marie Curie - Paris 6</i>).</td>
+    </tr>
+    <tr class="table-active">
+      <th scope="row">2002</th>
+      <td><span class="badge bg-primary">MSc</span> in Physics of liquids at <i>Sorbonne
+Université, Paris, France</i>.</td>
+    </tr>
+  </tbody>
+</table>
+
+</br>
+<span style="font-size:1.45rem;  font-weight: bold; color:white;">Latest projects or publications</span>
+
+<table class="table table-hover">
+  <thead>
+    <tr>
+      <!-- <th scope="col"></th>
+      <th scope="col"></th> -->
+    </tr>
+  </thead>
+  <tbody>
+      <tr class="table-active">
+      <th scope="row">2026</th>
+      <td>Internship at Regional office of <i>Insee Île-de-France</i>: Studied the feasibility of an analysis of high-wealth household in Île-de-France based on the national Wealth and life history survey.</td>
+    </tr>
+    <tr class="table-active">
+      <th scope="row">2025</th>
+      <td>Internship at Directorate-General of <i>Insee Montrouge</i> within the Labour market synthesis and short-term analysis division: Designed the quarterly employment estimates report using an R program and quarto to generate an HTML file.</td>
+    </tr>
+    <tr class="table-active">
+      <th scope="row">2024</th>
+      <td>Internship at Regional office of <i>Insee Île-de-France</i>: Developed a housing allocation tool for Labour force survey interviewers.</td>
+    </tr>
+    <tr class="table-active">
+      <th scope="row">2024</th>
+      <td>Internship at Regional office of <i>Insee Île-de-France</i>: Developed a tool to update dashboards monitoring population census data collection.</td>
+    </tr>
+  </tbody>
+</table>
+
+<div id="myModal" class="modal">
+<span class="close" onclick="closeModal()">&times;</span>
+<img class="modal-content" id="img01">
+</div>
+
+<script>
+function openModal() {
+    document.getElementById('myModal').style.display = "block";
+    document.getElementById('img01').src = "files/bis_192_depenses_de_voirie_infographie.png";
+}
+
+function closeModal() {
+    document.getElementById('myModal').style.display = "none";
+}
+</script>

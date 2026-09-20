@@ -1,0 +1,24 @@
+project:
+  type: website
+  output-dir: .
+website:
+  title: "Josselin Desclodure's personal page"
+  navbar:
+    title: false
+    left:
+      - href: index.qmd
+        text: Home
+    tools:
+      - icon: github
+        href: https://github.com/desclodure/desclodure.github.io
+  page-footer: 'Website powered by <a href="https://quarto.org/" target="_blank">Quarto</a>, an open-source scientific and technical publishing system.'
+
+format:
+  html:
+    page-layout: full
+    theme: cyborg
+    css: styles.css
+    toc: true
+
+
+

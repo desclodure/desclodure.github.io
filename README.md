@@ -1,1 +1,1 @@
-# desclodure.github.io
+Basic personal webpage using Quarto.
